@@ -1,0 +1,157 @@
+/* ====== GLOBAL ====== */
+html {
+    scroll-behavior: smooth;
+}
+
+html, body, * {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.9); 
+    z-index: -1;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background: url(wblogin.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo {
+    border-radius: 100px;
+    border: 3px solid rgba(239,200,225,0.6);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+/* ====== LOGOUT BUTTON ====== */
+#logoutBtn {
+    font-size: 14px;
+    padding: 10px 20x;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); 
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+#logoutBtn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* ====== NAVBAR ====== */
+.navbar-nav .nav-link { 
+    color: #94a3b8;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #3f72af !important;
+    font-weight: 600;
+}
+.navbar-brand {
+    color: #38bdf8 !important;
+    font-size: 1.5rem;
+}
+
+/* ====== HERO SECTION ====== */
+.hero-section {
+    background: linear-gradient(to right, #3f72af, #112d4e);
+    padding: 80px 20px;
+    border-radius: 0 0 50% 50% / 0 0 10% 10%;
+}
+.hero-section h1 {
+    font-size: 3rem;
+}
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* ====== ABOUT SECTION ====== */
+.about-section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.00005);
+    /* background: #ffffff; */
+    color: whitesmoke;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.9);
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.about-section p {
+    color: #ffffff !important;
+    font-size: 18px !important;
+}
+
+/* ====== SERVICES SECTION ====== */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+.service-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.service-card h5 {
+    color: #112d4e;
+    margin-top: 15px;
+}
+.service-card p {
+    color: #64748b;
+}
+.text-gradient {
+    background: linear-gradient(135deg, #3f72af, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-service {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #38bdf8, #3f72af);
+    color: #ffffff !important;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.btn-service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ====== FOOTER ====== */
+footer {
+    margin-top: 60px;
+    padding: 30px 10px;
+}

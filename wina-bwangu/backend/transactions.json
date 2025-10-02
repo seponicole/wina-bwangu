@@ -1,0 +1,18 @@
+[
+  {
+    "TransactionID":"WB0000001",
+    "MobileBooth":"Wina1",
+    "Location":"Lusaka CPD",
+    "Service":"Airtel Money",
+    "RevenuePerKwacha":0.05,
+    "Amount":964
+  },
+  {
+    "TransactionID":"WB0000002",
+    "MobileBooth":"Wina1",
+    "Location":"Lusaka CPD",
+    "Service":"MTN Money",
+    "RevenuePerKwacha":0.06,
+    "Amount":220
+  }
+]

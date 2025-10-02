@@ -1,0 +1,190 @@
+/* ====== GLOBAL ====== */
+html { scroll-behavior: smooth; }
+
+html, body, * {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.9); 
+    z-index: -1;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  background: url(wblogin.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+    border-radius: 100px;
+    border: 3px solid rgba(239,200,225,0.6);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+/* ====== NAVBAR ====== */
+.navbar-nav .nav-link { 
+    color: #94a3b8;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #3f72af !important;
+    font-weight: 600;
+}
+.navbar-brand {
+    color: #38bdf8 !important;
+    font-size: 1.5rem;
+}
+#logoutBtn {
+    font-size: 14px;
+    padding: 10px 20x;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); 
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+#logoutBtn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+
+/* ====== HERO SECTION ====== */
+.hero-section {
+    background: linear-gradient(to right, #3f72af, #112d4e);
+    padding: 60px 20px;
+    border-radius: 0 0 50% 50% / 0 0 10% 10%;
+}
+.hero-section h1 { font-size: 2.5rem; }
+.hero-section p { font-size: 1.1rem; }
+
+/* ====== FORM SECTION ====== */
+.transaction-form {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+/* INPUT & SELECT STYLING */
+.transaction-form input,
+.transaction-form select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    transition: all 0.3s ease;
+}
+.transaction-form input:focus,
+.transaction-form select:focus {
+    border-color: #3f72af;
+    box-shadow: 0 0 10px rgba(63,114,175,0.2);
+    outline: none;
+}
+
+/* BUTTONS */
+.btn-gradient {
+    background: linear-gradient(135deg, #38bdf8, #3f72af);
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.btn-gradient:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ====== DASHBOARD CARDS ====== */
+.dashboard-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #3f72af;
+    color: white;
+}
+td { color: #1e293b; }
+
+/* PIE & BAR CHARTS */
+canvas { max-width: 100%; height: auto; }
+
+/* FOOTER */
+footer {
+    margin-top: 60px;
+    padding: 30px 10px;
+}
+
+/* ====== DASHBOARD WIDGETS ====== */
+.dashboard-widgets .widget-card {
+    background: linear-gradient(135deg, #3f72af, #38bdf8);
+    color: white;
+    border-radius: 15px;
+    padding: 25px 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dashboard-widgets .widget-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.dashboard-widgets .widget-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.dashboard-widgets .widget-card .counter {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.dashboard-widgets .widget-card small {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.85);
+}
