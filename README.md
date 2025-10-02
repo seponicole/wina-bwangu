@@ -43,7 +43,7 @@ Wina Bwangu is a **FinTech dashboard** project designed to simulate mobile booth
 1. **Clone the repository**
 
    ```bash
-   git clone [https://github.com/seponicole/wina-bwangu.git]
+   git clone https://github.com/seponicole/wina-bwangu.git
    cd wina-bwangu
    ```
 
@@ -55,7 +55,7 @@ Wina Bwangu is a **FinTech dashboard** project designed to simulate mobile booth
 3. **No build step required** – runs directly in the browser.
 
 ## 📸 Screenshots
-<img width="1000" height="700" alt="wina bwangu landing page" src="https://github.com/user-attachments/assets/35ace831-42d8-459d-8774-3e140bb11833" />
+<img width="1000" height="700" alt="wina bwangu landing page" src="https://github.com/user-attachments/assets/35ace831-42d8-459d-8774-3e140bb11833" /> <br />
 <img width="1000" height="700" alt="wina bwangu dashboard" src="https://github.com/user-attachments/assets/1653f55a-08b3-4f9a-b9bd-c2a7596ea5a9" />
 
 ## 🔮 Future Improvements
