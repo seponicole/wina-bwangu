@@ -4,16 +4,16 @@ Wina Bwangu is a **FinTech dashboard** project designed to simulate mobile booth
 
 🚀 **Features**
 
-🔐 **Authentication System** – Sign up, log in, and log out with a clean UI
-💸 **Transactions Management** – Add transactions with auto-generated Transaction IDs
-📊 **Dynamic Dashboard**
+* 🔐 **Authentication System** – Sign up, log in, and log out with a clean UI
+* 💸 **Transactions Management** – Add transactions with auto-generated Transaction ID
+* 📊 **Dynamic Dashboard**
 
   * Cumulative totals per service
   * Tax obligations per booth (bar chart)
   * Service frequency per booth
   * Revenue vs Capital (pie chart)
-🎨 **Responsive UI** – Styled with **Bootstrap 5, custom CSS, and Google Fonts (Nunito)**
-🌍 **Modern Theme** – Gradient buttons, card-based layout, dark overlay background
+* 🎨 **Responsive UI** – Styled with **Bootstrap 5, custom CSS, and Google Fonts (Nunito)**
+* 🌍 **Modern Theme** – Gradient buttons, card-based layout, dark overlay background
 
 ## 🛠️ Tech Stack
 
